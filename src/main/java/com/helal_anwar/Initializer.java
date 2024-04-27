@@ -1,8 +1,8 @@
 package com.helal_anwar;
 
 import com.helal_anwar.model.Event;
-import com.helal_anwar.model.GroupRepository;
 import com.helal_anwar.model.Group;
+import com.helal_anwar.model.GroupRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

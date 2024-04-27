@@ -10,6 +10,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.web.ErrorResponse;
 
 import java.time.Instant;
 import java.util.Set;
@@ -29,5 +30,4 @@ public class Event {
     private String description;
     @ManyToMany
     private Set<User> attendees;
-
 }
